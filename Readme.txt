@@ -22,6 +22,10 @@ git push origin main
 
 MLFlow
 ------
+docker pull ghcr.io/mlflow/mlflow:v3.6.0rc0  
+o
+mlflow server --backend-store-uri sqlite:///mlflow.db --port 5000
 
 MLflow escuchando en http://localhost:5000/
+
 
